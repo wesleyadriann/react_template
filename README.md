@@ -1,4 +1,4 @@
-React Temaplte
+React Template
 ============
 
 ## Description
@@ -69,7 +69,6 @@ Will be create folder /build with the files. Inserts into HTTP server. [More inf
 ## Authors
 
 - [Wesley Adriann](https://github.com/WesleyAdriann)
-
 
 ## URL Project Reference
 
