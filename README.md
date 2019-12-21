@@ -1,10 +1,6 @@
 React Temaplte
 ============
 
-## Getting Started
-
-What do we need to get started?
-
 ## Description
 
 This is basic template with create basic app to projects
