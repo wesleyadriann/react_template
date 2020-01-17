@@ -61,6 +61,7 @@ Will be create folder /build with the files. Inserts into HTTP server. [More inf
 - [Axios](https://github.com/axios/axios)
 - [Styled Components](https://www.styled-components.com)
 - [ESLint](https://eslint.org)
+- [Prop Types](https://www.npmjs.com/package/prop-types)
 
 ## Versioning
 
