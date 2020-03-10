@@ -1,1 +1,3 @@
-export const config = {}
+export const config = {
+  persistKey: 'reactTempalte:'
+}

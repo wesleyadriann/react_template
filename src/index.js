@@ -1,16 +1,19 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
+import { PersistGate } from 'redux-persist/integration/react'
 
-import store from './store';
+import { persistor, store} from './store';
 
 import App from './App';
 import GlobalStyle from './globalStyle';
 
 ReactDOM.render(
   <Provider store={store}>
-    <GlobalStyle />
-    <App />
+    <PersistGate persistor={persistor}>
+        <GlobalStyle />
+        <App />
+    </PersistGate>
   </Provider>,
   document.getElementById('root'),
 );
