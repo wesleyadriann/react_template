@@ -3,10 +3,12 @@ import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import Home from './views/Home';
 
+import { ROUTES } from './settings';
+
 const Routes = () => (
   <BrowserRouter>
     <Switch>
-      <Route exact path="/" component={Home} />
+      <Route exact path={ROUTES.home} component={Home} />
     </Switch>
   </BrowserRouter>
 );
