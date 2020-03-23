@@ -1,6 +1,6 @@
 import styled from 'styled-components';
 
-import ReactLogo from '../../assets/images/react.svg';
+import { IMAGES } from '../../settings';
 
 export const Container = styled.div`
   height: 100vh;
@@ -16,7 +16,7 @@ export const Row = styled.div`
   &::before {
     content: " ";
     position: absolute;
-    background-image: url(${ReactLogo});
+    background-image: url(${IMAGES.reactLogo});
     opacity: 0.1;
     top: 0;
     left: 0;
