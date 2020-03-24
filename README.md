@@ -58,6 +58,7 @@ Will be create folder /build with the files. Inserts into HTTP server. [More inf
 - [Create React App](https://create-react-app.dev)
 - [Redux](https://redux.js.org)
 - [React Redux](https://react-redux.js.org)
+- [Redux Persist](https://github.com/rt2zz/redux-persist)
 - [Axios](https://github.com/axios/axios)
 - [Styled Components](https://www.styled-components.com)
 - [ESLint](https://eslint.org)
