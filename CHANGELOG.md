@@ -11,6 +11,10 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 
 ### Changed
 - Changed config to settings folder
+- Changed Dockerfile
+
+### Security
+- Update depencies
 
 ## [0.2.0]
 ### Added
