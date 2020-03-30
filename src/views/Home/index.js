@@ -1,4 +1,5 @@
 import React from 'react';
+import { KEYS } from '../../settings';
 
 import {
   Container,
@@ -14,7 +15,7 @@ const Home = () => (
         React
       </Title>
       <Subtitle>
-        Template to React Projects
+        { KEYS.envExample }
       </Subtitle>
     </Row>
   </Container>

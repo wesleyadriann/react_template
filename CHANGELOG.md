@@ -8,6 +8,9 @@ and this project adheres to [Semantic Versioning](https://semver.org/spec/v2.0.0
 ### Added
 - Add redux persist in dependencies
 - Add style folder
+- Add Dockerfile to production
+- Add example of environment variable
+- Add nginx configuration file
 
 ### Changed
 - Changed config to settings folder
