@@ -30,7 +30,7 @@ This is basic template with create basic app to projects
 - [npm](https://www.npmjs.com)
 
 ## Usage
-
+#### Without Docker
 In the directory, install the dependencies
 ```bash
 npm install
@@ -41,7 +41,18 @@ npm start
 ```
 Await for browser window open in http://localhost:3000.
 
+#### With Docker
+In the directory build Dockerfile
+```bash
+docker image build -t <IMAGE_NAME> . 
+```
+Run the Container
+```bash
+docker run -p 3000:3000 <IMAGE_NAME> 
+```
+
 ## Deployment
+#### Without Docker
 In the directory, install the dependencies
 ```bash
 npm install
@@ -51,6 +62,16 @@ Execute build command to create minify version to production
 npm run build
 ```
 Will be create folder /build with the files. Inserts into HTTP server. [More information](https://create-react-app.dev/docs/deployment/)
+
+#### With Docker
+In the directory build Dockerfile
+```bash
+docker image build -t <IMAGE_NAME> -f DockerfileBuild   .
+```
+Run the Container
+```bash
+docker run -p 80:80 <IMAGE_NAME> 
+```
 
 ## Built With
 
