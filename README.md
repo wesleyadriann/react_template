@@ -3,7 +3,7 @@ React Template
 
 ## Description
 
-This is basic template with create basic app to projects
+This is template for react projects
 
 ## Hierarchy
 
