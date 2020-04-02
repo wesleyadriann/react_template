@@ -45,5 +45,17 @@
     "eslint-plugin-jsx-a11y": "^6.2.3",
     "eslint-plugin-react": "^7.17.0",
     "eslint-plugin-react-hooks": "^1.7.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/WesleyAdriann/react_template.git",
+  },
+  "author": "Wesley Adriann",
+  "homepage": "https://github.com/WesleyAdriann/react_template#readme",
+  "keywords": [
+    "react",
+    "reactjs"
+    "redux",
+    "template",
+  ],
 }
