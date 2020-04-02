@@ -66,7 +66,7 @@ Will be create folder /build with the files. Inserts into HTTP server. [More inf
 #### With Docker
 In the directory build Dockerfile
 ```bash
-docker image build -t <IMAGE_NAME> -f DockerfileBuild   .
+docker image build -t <IMAGE_NAME> -f DockerfileBuild .
 ```
 Run the Container
 ```bash
