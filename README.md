@@ -27,7 +27,7 @@ This is template for react projects
 ## Prerequisites
 
 - [Node](https://nodejs.org/)
-- [npm](https://www.npmjs.com)
+- [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com/)
 
 ## Usage
 #### Without Docker
@@ -92,6 +92,10 @@ docker run -p 80:80 <IMAGE_NAME>
 ## Authors
 
 - [Wesley Adriann](https://github.com/WesleyAdriann)
+
+## Project Status
+
+- **Development**
 
 ## URL Project Reference
 
