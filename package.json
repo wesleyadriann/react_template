@@ -50,7 +50,11 @@
     "type": "git",
     "url": "git+https://github.com/WesleyAdriann/react_template.git",
   },
-  "author": "Wesley Adriann",
+  "author": {
+    "name" : ""Wesley Adriann"",
+    "email" : "wesleyadriann@gmail.com",
+    "url" : "https://github.com/WesleyAdriann"
+  },
   "homepage": "https://github.com/WesleyAdriann/react_template#readme",
   "keywords": [
     "react",
