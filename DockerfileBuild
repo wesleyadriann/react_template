@@ -1,5 +1,7 @@
 FROM node:12.4-alpine as reactBuild
 
+LABEL maintainer="Wesley Adriann - wesleyadriann@gmail.com"
+
 RUN \
   apk update && \
   apk add --update
