@@ -1,5 +1,7 @@
 FROM node:12.4-alpine
 
+LABEL maintainer="Wesley Adriann - wesleyadriann@gmail.com"
+
 RUN \
   echo "UPDATING SYSTEM" && \
   apk update && \
