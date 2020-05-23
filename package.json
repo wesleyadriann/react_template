@@ -1,7 +1,7 @@
 {
   "name": "my-app",
   "version": "0.1.0",
-  "private": true,
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
     "@testing-library/react": "^9.4.0",
@@ -15,7 +15,8 @@
     "react-scripts": "^3.4.1",
     "redux": "^4.0.4",
     "redux-persist": "^6.0.0",
-    "styled-components": "^4.4.1"
+    "styled-components": "^4.4.1",
+    "typy": "^3.3.0"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -48,18 +49,18 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/WesleyAdriann/react_template.git",
+    "url": "git+https://github.com/WesleyAdriann/react_template.git"
   },
   "author": {
-    "name" : "Wesley Adriann",
-    "email" : "wesleyadriann@gmail.com",
-    "url" : "https://github.com/WesleyAdriann"
+    "name": "Wesley Adriann",
+    "email": "wesleyadriann@gmail.com",
+    "url": "https://github.com/WesleyAdriann"
   },
   "homepage": "https://github.com/WesleyAdriann/react_template#readme",
   "keywords": [
     "react",
-    "reactjs"
+    "reactjs",
     "redux",
-    "template",
-  ],
+    "template"
+  ]
 }

@@ -9,39 +9,39 @@ export const Container = styled.div`
 `;
 
 export const Row = styled.div`
-  width: 75%;
-  max-width: 1140px;
   margin: auto;
+  max-width: 1140px;
+  width: 75%;
 
   &::before {
-    content: " ";
-    position: absolute;
     background-image: url(${IMAGES.reactLogo});
-    opacity: 0.1;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    background-repeat: no-repeat;
     background-position: 30vw 30vh;
+    background-repeat: no-repeat;
     background-size: 150vh auto;
+    bottom: 0;
+    content: " ";
+    left: 0;
+    opacity: 0.1;
+    position: absolute;
+    top: 0;
+    right: 0;
   }
 `;
 
 export const Title = styled.p`
   color: #61dafb;
   font-size: 45px;
+  font-style: normal;
+  font-weight: bold;
   letter-spacing: 0.01em;
   margin: 0;
-  font-weight: bold;
-  font-style: normal;
   text-align: center;
 `;
 
 export const Subtitle = styled.p`
-  font-size: 24px;
-  letter-spacing: 0.01em;
   color: #fff;
+  font-size: 24px;
   font-weight: 200;
+  letter-spacing: 0.01em;
   text-align: center;
 `;

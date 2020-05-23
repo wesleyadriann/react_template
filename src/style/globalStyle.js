@@ -9,9 +9,10 @@ export const GlobalStyle = createGlobalStyle`
     src: url(${FONTS.segoe});
   }
 
-  body, html, #root {
+  * {
     margin: 0;
     padding: 0;
     font-family: 'Segoe';
   }
+
 `;
