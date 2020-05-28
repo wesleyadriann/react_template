@@ -10,9 +10,10 @@ export const GlobalStyle = createGlobalStyle`
   }
 
   * {
+    box-sizing: border-box;
+    font-family: 'Segoe';
     margin: 0;
     padding: 0;
-    font-family: 'Segoe';
   }
 
 `;
