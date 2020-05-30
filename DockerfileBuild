@@ -3,23 +3,27 @@ FROM node:12.4-alpine as reactBuild
 LABEL maintainer="Wesley Adriann - wesleyadriann@gmail.com"
 
 RUN \
+  echo "UPDATING SYSTEM" && \
   apk update && \
   apk add --update
+
+RUN apk add yarn
 
 WORKDIR /app
 
 COPY ./package.json .
 
-RUN npm i
+RUN yarn i
 
 COPY . .
 
-RUN npm run build
+RUN yarn build
 
 
 FROM nginx:1.16.1-alpine
 
 RUN \
+  echo "UPDATING SYSTEM" && \
   apk update && \
   apk add --update
 
