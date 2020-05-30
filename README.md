@@ -57,7 +57,7 @@ Run the Container
 #  docker run -p <pc_port>:<container_port> <IMAGE_NAME>
 docker run -p 3000:3000 <IMAGE_NAME>
 ```
-
+Application will be running on [http://localhost:3000](http://localhost:3000)
 ## 🌐 Deployment (Production)
 ### 💻 Without Docker
 In the directory, install the dependencies
@@ -87,7 +87,7 @@ Run the Container
 #  docker run -p <PC_PORT>:<CONTAINER_PORT> <IMAGE_NAME>
 docker run -p 80:80 <IMAGE_NAME>
 ```
-Application will be running on [http://localhost:80](http://localhost:3000)
+Application will be running on [http://localhost:80](http://localhost:80)
 
 ## 🛠 Built With
 
