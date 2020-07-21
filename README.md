@@ -1,6 +1,11 @@
 React Template
 ============
 
+![](https://img.shields.io/github/languages/count/wesleyadriann/react_template)
+![](https://img.shields.io/github/last-commit/wesleyadriann/react_template)
+![](https://img.shields.io/github/license/wesleyadriann/react_template)
+![](https://img.shields.io/github/repo-size/wesleyadriann/react_template)
+
 ## 📝 Description
 
 This is template for react projects
