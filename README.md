@@ -6,11 +6,11 @@ React Template
 ![](https://img.shields.io/github/license/wesleyadriann/react_template)
 ![](https://img.shields.io/github/repo-size/wesleyadriann/react_template)
 
-## 📝 Description
+## Description
 
 This is template for react projects
 
-## 📂 Hierarchy
+## Hierarchy
 
 - **/nginx** directory where nginx configuration to production version is located;
 - **/public** directory where the react injects javascript in develop;
@@ -28,13 +28,13 @@ This is template for react projects
   - **/utils** directory where files make it easy to develop;
   - **/views** directory where de pages is located;
 
-## 📄 Prerequisites
+## Prerequisites
 
 - [Node](https://nodejs.org/)
 - [npm](https://www.npmjs.com) or [yarn](https://yarnpkg.com/)
 
-## 👨‍💻 Usage
-### 💻 Without Docker
+## Usage
+### Without Docker
 In the directory, install the dependencies
 ```bash
 # with npm
@@ -51,7 +51,7 @@ yarn start
 ```
 Await for browser window open in [http://localhost:3000](http://localhost:3000).
 
-### 🐋 With Docker (Recommended)
+### With Docker (Recommended)
 In the directory build Dockerfile
 ```bash
 # docker image build -t <IMAGE_NAME> <DOCKERFILE_DIRECTORY>
@@ -63,8 +63,8 @@ Run the Container
 docker run -p 3000:3000 <IMAGE_NAME>
 ```
 Application will be running on [http://localhost:3000](http://localhost:3000)
-## 🌐 Deployment (Production)
-### 💻 Without Docker
+## Deployment (Production)
+### Without Docker
 In the directory, install the dependencies
 ```bash
 # with npm
@@ -81,7 +81,7 @@ yarn build
 ```
 Will be create folder /build with the files. Inserts into HTTP server. [More information](https://create-react-app.dev/docs/deployment/)
 
-### 🐋 With Docker
+### With Docker
 In the directory build Dockerfile image
 ```bash
 # docker image build -t <IMAGE_NAME> -f <DOCKERFILE_NAME> <DOCKERFILE_DIRECTORY>
@@ -94,7 +94,7 @@ docker run -p 80:80 <IMAGE_NAME>
 ```
 Application will be running on [http://localhost:80](http://localhost:80)
 
-## 🛠 Built With
+## Built With
 
 - [Axios](https://github.com/axios/axios)
 - [Create React App](https://create-react-app.dev)
@@ -108,19 +108,19 @@ Application will be running on [http://localhost:80](http://localhost:80)
 - [Styled Components](https://www.styled-components.com)
 - [Typy](https://github.com/flexdinesh/typy)
 
-## 📜 Versioning
+## Versioning
 
 - [CHANGELOG](CHANGELOG.md)
 
-## 👥 Authors
+## Authors
 - Wesley Adriann
   - Github: [wesleyadriann](https://github.com/WesleyAdriann)
   - LinkedIn: [in/wesleyadriann](https://www.linkedin.com/in/wesleyadriann/)
 
-## ↪ Project Status
+## Project Status
 
 - **Development**
 
-## 📍 URL Project Reference
+## URL Project Reference
 
 - [https://github.com/WesleyAdriann/react_template](https://github.com/WesleyAdriann/react_template)
