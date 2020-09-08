@@ -7,16 +7,14 @@ RUN \
   apk update && \
   apk add --update
 
-RUN apk add yarn
-
 WORKDIR /app
 
 COPY ./package.json .
 
-RUN yarn install
+RUN npm install
 
 COPY . .
 
 EXPOSE 3000
 
-ENTRYPOINT yarn start
+ENTRYPOINT npm start
