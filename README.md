@@ -1,10 +1,13 @@
+<h1 align="center">
 React Template
-============
+</h1>
 
-![](https://img.shields.io/github/languages/count/wesleyadriann/react_template)
-![](https://img.shields.io/github/last-commit/wesleyadriann/react_template)
-![](https://img.shields.io/github/license/wesleyadriann/react_template)
-![](https://img.shields.io/github/repo-size/wesleyadriann/react_template)
+<p align="center">
+  <img src="https://img.shields.io/github/languages/count/wesleyadriann/react_template" />
+  <img src="https://img.shields.io/github/last-commit/wesleyadriann/react_template" />
+  <img src="https://img.shields.io/github/license/wesleyadriann/react_template" />
+    <img src="https://img.shields.io/github/repo-size/wesleyadriann/react_template" />
+</p>
 
 ## Description
 
@@ -99,6 +102,7 @@ Application will be running on [http://localhost:80](http://localhost:80)
 - [Axios](https://github.com/axios/axios)
 - [Create React App](https://create-react-app.dev)
 - [ESLint](https://eslint.org)
+- [Prettier](https://prettier.io/)
 - [Prop Types](https://www.npmjs.com/package/prop-types)
 - [ReactJs](https://reactjs.org)
 - [Redux Persist](https://github.com/rt2zz/redux-persist)
@@ -106,7 +110,6 @@ Application will be running on [http://localhost:80](http://localhost:80)
 - [React Router Dom](https://github.com/ReactTraining/react-router)
 - [Redux](https://redux.js.org)
 - [Styled Components](https://www.styled-components.com)
-- [Typy](https://github.com/flexdinesh/typy)
 
 ## Versioning
 

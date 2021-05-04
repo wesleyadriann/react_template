@@ -1,7 +1,9 @@
-import { combineReducers } from 'redux';
+import { combineReducers } from 'redux'
 
-const reducers = combineReducers ({
+import home from './home'
 
-});
+const reducers = combineReducers({
+  home
+})
 
-export default reducers;
+export default reducers

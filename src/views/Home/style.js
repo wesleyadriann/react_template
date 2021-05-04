@@ -1,47 +1,46 @@
-import styled from 'styled-components';
+import styled from 'styled-components'
 
-import { IMAGES } from '../../settings';
+import ReactLogo from '../../assets/images/ReactLogo'
 
 export const Container = styled.div`
   height: 100vh;
-  background-color: #282c34;
+  background-color: ${({ theme }) => theme.colors.reactDark};
   display: flex;
-`;
+  overflow: hidden;
+  position: relative;
+`
+
+export const Logo = styled(ReactLogo).attrs(() => ({
+  height: 'auto',
+  with: '150vh'
+}))`
+  position: absolute;
+  opacity: 0.1;
+  right: -30vw;
+  top: 30vh;
+  z-index: 2;
+`
 
 export const Row = styled.div`
   margin: auto;
   max-width: 1140px;
   width: 75%;
-
-  &::before {
-    background-image: url(${IMAGES.reactLogo});
-    background-position: 30vw 30vh;
-    background-repeat: no-repeat;
-    background-size: 150vh auto;
-    bottom: 0;
-    content: " ";
-    left: 0;
-    opacity: 0.1;
-    position: absolute;
-    top: 0;
-    right: 0;
-  }
-`;
+`
 
 export const Title = styled.p`
-  color: #61dafb;
+  color: ${({ theme }) => theme.colors.react};
   font-size: 45px;
   font-style: normal;
   font-weight: bold;
   letter-spacing: 0.01em;
   margin: 0;
   text-align: center;
-`;
+`
 
 export const Subtitle = styled.p`
-  color: #fff;
+  color: ${({ theme }) => theme.colors.white};
   font-size: 24px;
   font-weight: 200;
   letter-spacing: 0.01em;
   text-align: center;
-`;
+`

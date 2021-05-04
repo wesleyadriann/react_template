@@ -1,9 +1,9 @@
-export const ENDPOINTS = {
-  ENDPOINT_X: {
-    baseUrl: 'https://api.com',
-    route1: {
-      route: '/x',
-      mehotd: 'get',
-    },
-  },
-};
+export const endpoints = {
+  jsonPlaceHolder: {
+    baseUrl: 'https://jsonplaceholder.typicode.com/',
+    todos: {
+      route: (id = '') => `/todos/${id}`,
+      method: 'get'
+    }
+  }
+}

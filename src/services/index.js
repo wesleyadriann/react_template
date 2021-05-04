@@ -1,1 +1,1 @@
-// export * from './x';
+export * as jsonPlaceHolder from './jsonPlaceHolder'

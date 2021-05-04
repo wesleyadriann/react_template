@@ -1,19 +1,19 @@
-import { createGlobalStyle } from 'styled-components';
+import { createGlobalStyle } from 'styled-components'
 
-import { FONTS } from './fonts';
+import { fonts, fontsNames } from './fonts'
 
 export const GlobalStyle = createGlobalStyle`
 
   @font-face {
-    font-family: 'Segoe';
-    src: url(${FONTS.segoe});
+    font-family: ${fontsNames.segoe};
+    src: url(${fonts.segoe});
   }
 
   * {
     box-sizing: border-box;
-    font-family: 'Segoe';
+    font-family: ${fontsNames.segoe};
     margin: 0;
     padding: 0;
   }
 
-`;
+`

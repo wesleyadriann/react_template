@@ -1,5 +1,9 @@
-import segoe from '../assets/fonts/segoe-ui.otf';
+import segoe from '../assets/fonts/segoe-ui.otf'
 
-export const FONTS = {
-  segoe,
-};
+export const fontsNames = {
+  segoe: 'Segoe'
+}
+
+export const fonts = {
+  segoe
+}
