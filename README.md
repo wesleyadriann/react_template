@@ -111,10 +111,6 @@ Application will be running on [http://localhost:80](http://localhost:80)
 - [Redux](https://redux.js.org)
 - [Styled Components](https://www.styled-components.com)
 
-## Versioning
-
-- [CHANGELOG](CHANGELOG.md)
-
 ## Authors
 - Wesley Adriann
   - Github: [wesleyadriann](https://github.com/WesleyAdriann)
