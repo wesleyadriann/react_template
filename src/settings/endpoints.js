@@ -1,6 +1,6 @@
 export const endpoints = {
   jsonPlaceHolder: {
-    baseUrl: 'https://jsonplaceholder.typicode.com/',
+    baseUrl: process.env.REACT_APP_API ?? 'https://jsonplaceholder.typicode.com/',
     todos: {
       route: (id = '') => `/todos/${id}`,
       method: 'get'
